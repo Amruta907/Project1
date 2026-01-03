@@ -1,0 +1,16 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Numi - Digit Recognizer</title>
+  
+</head>
+<body>
+  <h2>Draw a Digit (0-9):</h2>
+  <canvas id="canvas" width="280" height="280" style="border:1px solid #000"></canvas><br>
+  <button onclick="clearCanvas()">Clear</button>
+  <button onclick="predictDigit()">Predict</button>
+  <h3 id="result">Prediction: ...</h3>
+  <script src="/static/script.js"></script>
+</body>
+</html>
